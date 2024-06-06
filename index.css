@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://starwarsblog.starwars.com/wp-content/uploads/2022/05/primary-star-wars.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#loading {
+    display: none;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#error {
+    color: red;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.character-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ffeb3b;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+}
