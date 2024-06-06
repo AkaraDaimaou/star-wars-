@@ -6,7 +6,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background: url('https://starwarsblog.starwars.com/wp-content/uploads/2022/05/primary-star-wars.png') no-repeat center center fixed;
+    background: black url('https://starwarsblog.starwars.com/wp-content/uploads/2022/05/primary-star-wars.png') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -31,6 +31,11 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     width: 300px;
+    transition: transform 0.3s;
+}
+
+.character-info:hover {
+    transform: scale(1.05);
 }
 
 button {
@@ -55,6 +60,7 @@ h1 {
 .logo {
     width: 300px;
 }
+
 .hidden {
     display: none;
 }
