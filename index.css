@@ -55,3 +55,6 @@ h1 {
 .logo {
     width: 300px;
 }
+.hidden {
+    display: none;
+}
